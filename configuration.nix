@@ -49,7 +49,11 @@
   };
 
   # Configure console keymap
-  console.keyMap = "pl2";
+  console= {
+    font = "ter-v16b";
+    keyMap = "pl2";
+    packages = with pkgs; [ terminus_font ];
+  };
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.yanex = {

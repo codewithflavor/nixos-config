@@ -5,6 +5,7 @@
     ./user/shell/tmux.nix
     ./user/shell/bash.nix
     ./user/app/git/git.nix
+    ./user/app/vim/vim.nix
   ];
 
   # Home Manager needs a bit of information about you and the paths it should
@@ -17,10 +18,6 @@
   home.packages = with pkgs; [ ];
 
   home.file = { };
-
-  home.sessionVariables = {
-    # EDITOR = "emacs";
-  };
-  
+ 
   programs.home-manager.enable = true;
 }

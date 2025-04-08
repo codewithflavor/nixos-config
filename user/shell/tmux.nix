@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 
 {
+  home.packages = with pkgs; [ tmux ];
+  
   programs.tmux = {
     enable = true;
     clock24 = true;

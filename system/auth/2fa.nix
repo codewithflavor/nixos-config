@@ -16,5 +16,6 @@
   
   security.pam = {
     services.sshd.googleAuthenticator.enable = true;
+    services.login.googleAuthenticator.enable = true;
   };
 }

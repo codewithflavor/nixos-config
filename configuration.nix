@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
     #  ./system/hardware/bluetooth/bluetooth.nix
+      ./system/hardware/battery/battery.nix
       ./system/app/ollama/ollama.nix
       ./system/auth/2fa.nix
     ];

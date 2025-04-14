@@ -8,8 +8,9 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./system/app/ollama/ollama.nix
     #  ./system/hardware/bluetooth/bluetooth.nix
+      ./system/app/ollama/ollama.nix
+      ./system/auth/2fa.nix
     ];
 
   # Bootloader.
